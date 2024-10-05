@@ -1,0 +1,37 @@
+1) 257 def
+2) 257 func
+3) 40 (
+4) 270 float
+5) 257 b
+6) 41 )
+7) 123 {
+8) 260 if
+9) 40 (
+10) 257 b
+11) 263 <=
+12) 256 3
+erro lexico na linha 2 - |
+erro lexico na linha 2 - |
+13) 33 !
+14) 256 1
+15) 41 )
+16) 257 code
+17) 59 ;
+18) 257 otherwise
+19) 123 {
+20) 257 this_thing
+21) 61 =
+22) 267 for
+23) 40 (
+24) 41 )
+25) 59 ;
+26) 125 }
+27) 125 }
+
+TABELA DE SIMBOLOS
+0 - def
+1 - func
+2 - b
+3 - code
+4 - otherwise
+5 - this_thing
