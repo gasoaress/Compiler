@@ -1,10 +1,10 @@
-1) 271 void
+1) 268 void
 2) 257 main
 3) 40 (
 4) 258 int
 5) 257 argc
 6) 44 ,
-7) 257 char
+7) 274 char
 8) 42 *
 9) 42 *
 10) 257 argv
@@ -22,11 +22,11 @@
 22) 257 fopen
 23) 40 (
 24) 257 argv
-erro lexico na linha 3 - [
+erro lexico na linha 3 
 25) 256 1
-erro lexico na linha 3 - ]
+erro lexico na linha 3 
 26) 44 ,
-27) 272 "r"
+27) 273 "r"
 28) 41 )
 29) 59 ;
 30) 257 token
@@ -42,7 +42,7 @@ erro lexico na linha 3 - ]
 40) 123 {
 41) 257 printf
 42) 40 (
-43) 272 "%d) %d %s\n"
+43) 273 "%d) %d %s\n"
 44) 44 ,
 45) 257 i
 46) 43 +
@@ -69,13 +69,12 @@ erro lexico na linha 3 - ]
 TABELA DE SIMBOLOS
 0 - main
 1 - argc
-2 - char
-3 - argv
-4 - token
-5 - i
-6 - yyin
-7 - fopen
-8 - yylex
-9 - printf
-10 - yytext
-11 - imprime
+2 - argv
+3 - token
+4 - i
+5 - yyin
+6 - fopen
+7 - yylex
+8 - printf
+9 - yytext
+10 - imprime

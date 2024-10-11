@@ -10,25 +10,24 @@
 10) 257 b
 11) 261 <=
 12) 256 3
-Erro léxico na linha 2 - |
-Erro léxico na linha 2 - |
-13) 33 !
-14) 256 1
-15) 41 )
-16) 257 code
-17) 59 ;
-18) 257 otherwise
-19) 123 {
-20) 257 this_thing
-21) 61 =
-22) 263 for
-23) 40 (
-24) 41 )
-25) 59 ;
-26) 125 }
+13) 267 or
+14) 33 !
+15) 256 1
+16) 41 )
+17) 257 code
+18) 59 ;
+19) 257 otherwise
+20) 123 {
+21) 257 this_thing
+22) 61 =
+23) 263 for
+24) 40 (
+25) 41 )
+26) 59 ;
 27) 125 }
+28) 125 }
 
-TABELA DE SIMBOLO
+TABELA DE SIMBOLOS
 0 - def
 1 - func
 2 - b

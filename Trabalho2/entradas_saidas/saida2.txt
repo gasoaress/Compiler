@@ -23,7 +23,7 @@ Erro léxico na linha 4 - ~
 22) 125 }
 23) 125 }
 
-TABELA DE SIMBOLO
+TABELA DE SIMBOLOS
 0 - main
 1 - x
 2 - y

@@ -5,7 +5,7 @@ Erro léxico na linha 1 - #
 Erro léxico na linha 1 - .
 4) 257 h
 5) 62 >
-6) 257 void
+6) 273 void
 7) 257 boilWater
 8) 40 (
 9) 41 )
@@ -16,7 +16,7 @@ Erro léxico na linha 1 - .
 14) 41 )
 15) 59 ;
 16) 125 }
-17) 257 void
+17) 273 void
 18) 257 addNoodles
 19) 40 (
 20) 41 )
@@ -27,7 +27,7 @@ Erro léxico na linha 1 - .
 25) 41 )
 26) 59 ;
 27) 125 }
-28) 257 void
+28) 273 void
 29) 257 stirNoodles
 30) 40 (
 31) 41 )
@@ -38,7 +38,7 @@ Erro léxico na linha 1 - .
 36) 41 )
 37) 59 ;
 38) 125 }
-39) 257 void
+39) 273 void
 40) 257 addSeasoning
 41) 40 (
 42) 41 )
@@ -49,7 +49,7 @@ Erro léxico na linha 1 - .
 47) 41 )
 48) 59 ;
 49) 125 }
-50) 257 void
+50) 273 void
 51) 257 serve
 52) 40 (
 53) 41 )
@@ -105,15 +105,14 @@ Erro léxico na linha 1 - .
 103) 59 ;
 104) 125 }
 
-TABELA DE SIMBOLO
+TABELA DE SIMBOLOS
 0 - include
 1 - stdio
 2 - h
-3 - void
-4 - boilWater
-5 - printf
-6 - addNoodles
-7 - stirNoodles
-8 - addSeasoning
-9 - serve
-10 - main
+3 - boilWater
+4 - printf
+5 - addNoodles
+6 - stirNoodles
+7 - addSeasoning
+8 - serve
+9 - main

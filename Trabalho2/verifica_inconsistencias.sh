@@ -17,13 +17,13 @@ n_outs=5
 
 for (( i=1; i<=${n_outs}; i++ ))
 do
-    leo_out="$pasta_arquivos/saida${i}_.txt"
+    leo_out="$pasta_arquivos/saida${i}_.txt" 
     student_out="$pasta_arquivos/saida${i}.txt"
 
     ./analex "${pasta_arquivos}/entrada${i}.c" > ${student_out}
 
-    count=$(grep -n "TABELA DE SIMBOLO" < $leo_out | tr ":TABELA DE SIMBOLO" " ")
-    line_number=$(wc $leo_out -l | tr " ${leo_out} " " ")
+    count=$(grep -n "TABELA DE SIMBOLOS" < $leo_out | tr ":TABELA DE SIMBOLOS" " ")
+    line_number=$(wc $leo_out -l | tr " " "\n" | head -1)
     table_start=$(expr $line_number - $count)
 
     symbol_table_leo=$(tail $leo_out -n $table_start)
@@ -31,9 +31,11 @@ do
 
 
 
-    count=$(grep -n "TABELA DE SIMBOLO" < $student_out | tr ":TABELA DE SIMBOLO" " ")
-    line_number=$(wc $student_out -l | tr " ${student_out} " " ")
+    count=$(grep -n "TABELA DE SIMBOLOS" < $student_out | tr ":TABELA DE SIMBOLOS" " ")
+    line_number=$(wc $student_out -l | tr " " "\n" | head -1)
     table_start=$(expr $line_number - $count)
+
+   
 
     symbol_table_student=$(tail $student_out -n $table_start)
     line_number_student=$line_number

@@ -16,6 +16,9 @@ letra [a-zA-Z_]
 
 "int"  {return INT;}
 "float"  {return FLOAT;}
+"char"  {return CHAR;}
+
+"void"  {return VOID;}
 
 "+"   {return '+';}
 "-"   {return '-';}

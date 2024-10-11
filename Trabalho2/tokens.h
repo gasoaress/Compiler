@@ -15,3 +15,5 @@
 #define RT 270
 #define EQ 271
 #define STR 272
+#define VOID 273
+#define CHAR 274

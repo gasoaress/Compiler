@@ -43,7 +43,7 @@
 43) 59 ;
 44) 125 }
 
-TABELA DE SIMBOLO
+TABELA DE SIMBOLOS
 0 - main
 1 - aux
 2 - cont
